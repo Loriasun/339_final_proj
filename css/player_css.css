@@ -23,6 +23,7 @@ h1{
     max-width: 300px;
     border: solid 2px #000000;
     /* overflow: hidden;  */
+    margin-left: 60px;
   }
 
   .item1{
