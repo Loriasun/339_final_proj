@@ -8,7 +8,7 @@ h1{
 #container{
     margin-bottom: 10px;
 }
-#awards {
+#awards{
     font-family: 'Times New Roman', Times, serif;
     font-size:       15px;
     border-collapse: collapse;
@@ -17,22 +17,9 @@ h1{
     /* margin-left: 10px;
     margin-bottom: 10px; */
     margin: auto;
-}
-  
-  /* #awards td:nth-child(odd){
-    border-left: 2px solid #000000;
-    padding: 8px;
+   
   }
-  #awards td:nth-child(even){
-    border-right: 2px solid #000000;
-    padding: 8px;
-  }
-  
-    #awards th{
-        border: 2px solid #000000;
-        
-        padding: 8px;
-    } */
+
 
 
     #awards td, #awards th {
