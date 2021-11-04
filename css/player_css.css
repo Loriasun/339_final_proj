@@ -1,0 +1,89 @@
+#header{
+    background-image:url(../img/2020.2.jpeg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns:  auto auto; 
+    grid-template-rows: 455px 455px 455px 455px 455px 455px;
+    grid-gap: 10px;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    max-height: 450px;
+    max-width: 300px;
+    border: solid 2px #000000;
+    /* overflow: hidden;  */
+  }
+
+  .item1{
+    background: url(../img/zhu.jpeg) top no-repeat;
+
+  }
+
+  /*.item1-img{
+      /* background: url(../img/zhuTing.jpeg) top left no-repeat; */
+      /* background: contain, left;
+      grid-column: 1/auto;
+      grid-row: 1/ auto;
+      overflow: hidden;
+      
+  } */
+  .item2{
+    background: url(../img/Yuan.jpeg) top left no-repeat;
+   
+    
+}
+.item3{
+    background: url(../img/zhangchangning.jpeg) top left no-repeat;
+   
+    
+}
+.item4{
+    background: url(../img/liyingying.jpeg) top left no-repeat;
+    /* background-size: contain; */
+}   
+.item5{
+    background: url(../img/liuxiaotong.jpeg) top left no-repeat;
+    
+    
+}
+.item6{
+    background: url(../img/yanni.jpeg) top left no-repeat;
+    background-size: contain;
+   
+}
+.item7{
+    background: url(../img/wang.jpeg) top left no-repeat;
+    background-size: contain;
+    
+}
+.item8{
+    background: url(../img/dingxia.jpeg) top left no-repeat;
+    background-size: contain;
+}
+.item9{
+    background: url(../img/yaodi.jpeg) top left no-repeat;
+    background-size: contain;
+}
+.item10{
+    background: url(../img/gong.jpeg) top left no-repeat;
+    background-size: contain;
+}
+.item11{
+    background: url(../img/liuyanhan.jpeg) top left no-repeat;
+    background-size: contain;
+}
+.item12{
+    background: url(../img/wmj.jpeg) top left no-repeat;
+    background-size: contain;
+}
