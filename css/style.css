@@ -63,24 +63,43 @@ body
 {
 	list-style:      none;
 	display:         inline;
+	
 }
 
-#menu ul li a:link, #menu ul li a:active, #menu ul li a:visited
-{
+#menu ul li a{
 	color:           #DAA520;	
 	padding:         10px 7px 10px 7px;
 	font-size:       1.5em;
 
 	font-family:     'Times New Roman', Times, serif;
 	font-weight:     bold;
-	
 }
 
+/* #menu ul li a:visited
+{
+	border: dotted #94C258 20px;
+	background: #94C258;
+} */
+
+/* .About a.About:visited{
+	border: dotted #94C258 20px;
+	background: #94C258;
+	color: white;
+} */
+
+#menu .current {
+    color:yellow;
+    border: 2px dotted #FFA500;
+    border-radius: 5px 
+;
+}
 #menu ul li a:hover
 {
 	/* background-color:   #6A7919; */
 	border: solid #FFA500 2px;
 	color:           #FFD700;
+	
+	
 }
 
 
